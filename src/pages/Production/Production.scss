@@ -1,0 +1,29 @@
+@import '../../theme/colors';
+@import '../../theme/buttons';
+@import '../../theme/themecard';
+@import '../../theme/tab';
+
+.pagecretion-input{
+    width: 200px;
+    margin-right: 20px;
+    color: #B4B4B4;
+}
+
+
+.blue-btn{
+    margin-bottom: 20px;
+}
+
+
+.form-group .css-1s2u09g-control{
+    border: 1px solid #C4C4C4;
+    min-height: 44px;
+}
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+.bills-header{
+    display: flex;
+    justify-content: space-between;
+}

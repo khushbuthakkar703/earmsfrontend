@@ -1,0 +1,10 @@
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-toggle{
+    background: transparent;
+    border: none;
+}
+.dropdown-item{
+    padding: 10px 20px;
+}

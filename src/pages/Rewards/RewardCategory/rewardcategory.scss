@@ -1,0 +1,13 @@
+
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+
+.tab-content{
+    width: 100%;
+    overflow: auto ;
+    th,td{
+        white-space: nowrap;
+    }
+}

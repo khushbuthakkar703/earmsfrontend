@@ -1,0 +1,52 @@
+@import '../../theme/colors';
+@import '../../theme/buttons';
+@import '../../theme/themecard';
+
+@import '../../theme/tab';
+
+
+
+.assign-duty-table{
+    
+    .ad-row-1{
+        width: 16%;
+        padding: 10px 15px;
+
+    }
+    .ad-row-2,.ad-row-3,.ad-row-4{
+        width: 28%;
+        padding: 10px 15px;
+
+    }
+    .ad-row{
+        border-top: 1px solid #B4B4B4;
+        .ad-row-2,.ad-row-3,.ad-row-1{
+            border-right: 1px solid #B4B4B4;
+
+        }
+        .form-select{
+            border: none;
+            height: 38px;
+            
+        }
+        .form-select:focus{
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .ad-body{
+        max-height: 200px;
+        overflow: auto;
+    }
+}
+.form-group .css-1s2u09g-control{
+    border: 1px solid #C4C4C4;
+    min-height: 44px;
+
+
+}
+
+td img{
+    margin-right: 8px;
+}
+

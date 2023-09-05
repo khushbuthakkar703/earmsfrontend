@@ -1,0 +1,25 @@
+@import '../../theme/colors';
+
+.panel-left-div{
+    width: 229px;
+    min-height: calc(100vh - 60px);
+    background-color: $left_menu_background_color;
+    color: $left_menu_font_color;
+}
+
+.panel-base-div{
+    display: flex;
+}
+.panel-right-div{
+    height: calc(100vh - 60px);
+    width: calc(100vw - 229px);
+    overflow: auto;
+    padding: 24px 32px;
+    background: $gray_color;
+}
+
+.menu-items-icons{
+    font-size: 15px;
+    margin-right: 6px;
+    margin-bottom: 3px;
+}

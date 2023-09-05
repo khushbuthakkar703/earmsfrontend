@@ -1,0 +1,15 @@
+.overlay{
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    .reminder-modal{
+        background-color: #fff;
+        width: 25%;
+        position: absolute;
+        top:25%;
+        left: 40%;
+    }
+}

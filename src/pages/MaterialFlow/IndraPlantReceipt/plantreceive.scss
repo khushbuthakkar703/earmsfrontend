@@ -1,0 +1,167 @@
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+
+.material-input input{
+width: 188px !important;
+margin-right: 20px;
+color: #A7A7A7;
+}
+.material-input select{
+    width: 188px !important;
+    margin-right: 20px;
+    color: #A7A7A7;
+}
+.status-yelw{
+    color: #E5FF48;
+    margin-right: 10px;
+}
+
+.status-green{
+    color: #62FF48;
+    margin-right: 10px;
+}
+
+
+
+.form-group {
+    width: 35%;
+    margin-right: 25px;
+}
+
+.blue-btn{
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 35%;
+    margin-right: 25px;
+}
+.assign-duty-table{
+    
+    .ad-row-1{
+        width: 16%;
+        padding: 10px 15px;
+
+    }
+    .ad-row-2,.ad-row-3,.ad-row-4{
+        width: 28%;
+        padding: 10px 15px;
+
+    }
+    .ad-row{
+        border-top: 1px solid #B4B4B4;
+        .ad-row-2,.ad-row-3,.ad-row-1{
+            border-right: 1px solid #B4B4B4;
+
+        }
+        .form-select{
+            border: none;
+            height: 38px;
+            
+        }
+        .form-select:focus{
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .ad-body{
+        max-height: 200px;
+        overflow: auto;
+    }
+}
+.form-group .css-1s2u09g-control{
+    border: 1px solid #C4C4C4;
+    min-height: 44px;
+}
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+.billreceive-detail{
+    display: flex;
+    width: 100%;
+}
+.billdetail-left{
+    display: flex;
+    width: 35%;
+}
+.billdetail-right{
+    display: flex;
+    width: 65%;
+}
+.detail-receivebill-1{
+    width: 55%;
+}
+.receiveform{
+    display: flex;
+    width: 100%;
+    padding: 35px 10px 35px 20px;
+}
+
+// verify form css start
+.Verify-form{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 481px;
+    height: 339px;
+    padding: 30px 20px 25px 20px;
+  
+}
+.verify-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(55, 55, 55, 0.6);
+}
+.verify-heading{
+    text-align: center;
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+padding-bottom: 25px;
+}
+.verify-input input{
+    width: 430px !important;
+    height: 43px !important;
+    margin-bottom: 10px;
+    border: 0.5px solid #A3A3A3 !important;
+    border-radius: 3px !important;
+}
+.verify-input label{
+    padding-bottom: 10px;
+}
+.verify-buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.cancel-button{
+    margin-right: 30px;
+}
+.receive-forms{
+    height: 100vh;
+    position: relative;
+}
+.vehicle-name{
+    padding-left: 30px;
+}
+.vehicle-name1{
+    padding-left: 60px;
+}

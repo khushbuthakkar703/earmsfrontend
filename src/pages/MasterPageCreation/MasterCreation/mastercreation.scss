@@ -1,0 +1,26 @@
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+
+
+.tab-content{
+    width: 100%;
+    overflow: auto ;
+    th,td{
+        min-width: 250px;
+    }
+   .css-1okebmr-indicatorSeparator{
+    width: 0px;
+   }
+}
+.css-1s2u09g-control{
+    border: none !important;
+    svg{
+        fill: #262626;
+    }
+}
+.css-14el2xx-placeholder{
+    font-size: 15px;
+    color: #262626 !important;
+}

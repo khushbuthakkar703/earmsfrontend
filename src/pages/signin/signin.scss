@@ -1,0 +1,61 @@
+@import '../../theme/buttons';
+
+.login-container{
+    width: 100vw;
+    height: 100vh;
+   
+    background-color: $gray_color;
+    .login-wrapper{
+        width: 450px;
+        min-height: 400px;
+        background-color: #fff;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+        padding: 40px;
+    }
+    h1{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-label{
+    color: #262626;
+    font-size: 15px;
+margin-bottom: 8px;
+}
+.form-control{
+    border: 1px solid #C4C4C4;
+    background-color: #FBFBFB;
+    border-radius: 3px;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: #262626;
+    outline: none;
+}
+.form-control:focus{
+    color: #262626;
+    box-shadow: none;
+    border-color: #C4C4C4;
+}
+.form-text{
+    text-align: right;
+    font-size: 12px;
+    color: red;
+}
+.forget-pwd{
+    color: #8E8E95;
+    font-size: 13px;
+    display: block;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.error-text{
+    color: red;
+    margin-top: 2px;
+}

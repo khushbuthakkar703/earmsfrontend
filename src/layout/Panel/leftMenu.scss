@@ -1,0 +1,48 @@
+@import '../../theme/colors';
+
+.accordion-base {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    padding: 30px 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.accordion-header{
+    font-weight: "bold";
+    color: rgb(255, 255, 255);
+}
+
+.link-text{
+    text-decoration: none;
+    font-size: 14px;
+    color: $menu-link-text;
+
+    span{
+        float: right;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border: 1px solid $active-link-dot-color;
+        background-color: $active-link-dot-color;
+        margin-bottom: auto;
+        margin-top: -30px;
+    }
+}
+
+.link-text:hover {
+    color: $menu-link-text-hover;
+}
+
+.left-menu-base-div{
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.left-menu-base-div::-webkit-scrollbar {
+    display: none;
+}

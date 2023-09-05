@@ -1,0 +1,37 @@
+
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+@import '../../../theme/modal';
+.status-red{
+    color: #FF4848;
+}
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+.billreceive-detail{
+    display: flex;
+    width: 100%;
+}
+.billdetail-left{
+    display: flex;
+    width: 35%;
+}
+.billdetail-right{
+    display: flex;
+    width: 65%;
+}
+.detail-receivebill-1{
+    width: 55%;
+}
+.receiveform{
+    display: flex;
+    width: 100%;
+    padding: 35px 10px 35px 20px;
+}
+.detail-receivebill-3{
+    width: 30%;
+ }
+ 

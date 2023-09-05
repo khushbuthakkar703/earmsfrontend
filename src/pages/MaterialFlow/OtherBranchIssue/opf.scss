@@ -1,0 +1,56 @@
+
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+
+.wpr-table{
+    td:first-child{
+         color: $gradient_button_color_left;
+     }
+ }
+ 
+ .print-marerial{
+    border-radius: 2px !important;
+    margin-right: 10px;
+ }
+ .yes{
+    padding-right: 70px;
+    padding-left: 10px;
+ }
+ .billreceive-detail{
+   display: flex;
+   width: 100%;
+}
+.billdetail-left{
+   display: flex;
+   width: 40%;
+}
+.billdetail-right{
+   display: flex;
+   width: 60%;
+}
+.receiveform{
+   display: flex;
+   width: 100%;
+   padding: 35px 10px 35px 20px;
+}
+.detail-receivebill-1{
+   width: 60%;
+}
+.detail-receivebill-2{
+   width: 30%;
+}
+.detail-receivebill-3{
+   width: 30%;
+}
+.link-clr{
+   color: #0260D2;
+}
+.gap{
+   padding-bottom: 20px;
+   margin-bottom: 0 !important;
+}
+.top-gap{
+   padding-top: 10px;
+}

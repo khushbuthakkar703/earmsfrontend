@@ -1,0 +1,18 @@
+@import '../../theme/colors';
+@import '../../theme/buttons';
+@import '../../theme/themecard';
+@import '../../theme/tab';
+.bills-header{
+    display: flex;
+    justify-content: space-between;
+}
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+.cancel-btn:hover{
+color: $back_button_background_color !important;
+}
+.dropdown-color{
+    color: #000000 !important;
+}

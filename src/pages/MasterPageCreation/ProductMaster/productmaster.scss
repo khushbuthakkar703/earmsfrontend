@@ -1,0 +1,32 @@
+
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+
+.yes{
+    padding-right: 70px;
+    padding-left: 10px;
+ }
+ .input-add{
+    border: none !important;
+    background-color: transparent !important;
+    text-decoration: underline;
+    color: $back_button_background_color;
+    margin-top: 23px;
+ }
+ .add-list{
+padding: 6px  25px !important;
+margin-top: 23px;
+border: 1px solid rgb(201, 199, 199) !important;
+ }
+ .add{
+    background-color: $back_button_background_color !important;
+    color: white;
+    margin-right: 10px;
+ }
+ .cancel{
+    background-color: white !important;
+    color: $back_button_background_color;
+    margin-left: 10px;
+ }

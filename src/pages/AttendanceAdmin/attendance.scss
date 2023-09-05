@@ -1,0 +1,124 @@
+@import "../../theme/colors";
+@import "../../theme/buttons";
+@import "../../theme/themecard";
+@import "../../theme/modal";
+@import "../../theme/tab";
+@import "../../theme/progress";
+@import "../../theme/common";
+
+.att-txt {
+  font-weight: 700;
+  &.g-color {
+    color: #3dff44;
+  }
+  &.r-clr {
+    color: #ff3d3d;
+  }
+  &.b-clr {
+    color: #3d67ff;
+  }
+}
+.form-select option{
+  color: #000!important;
+}
+.pointer-link{
+  cursor: pointer;
+  color: #3d67ff;
+}
+.info-box {
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 16px;
+  min-height: 440px;
+  background-color: #fff;
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    span {
+      font-size: 20px;
+      color: #888888;
+    }
+  }
+  h6 {
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .g-bg {
+    background: #f5f5f5;
+  }
+  .rect-box {
+    border: 1px solid #b7b7b7;
+    padding: 13px 8px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    &.active-clr{
+      border: 4px solid #0260D2;
+
+    }
+    svg,img{
+        width: 9px;
+        height: 9px;
+        margin-right: 5px;
+    }
+  }
+  .circle-box{
+    border: 2px solid #b7b7b7;
+    width: 115px;
+    height: 115px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+  }
+  .twO-clo{
+    gap:15px;
+    .rect-box{
+        width: 50%;
+        padding: 8px;
+        margin-bottom: 0;
+        h6{
+          margin-bottom: 0;
+        }
+        p{
+          font-size: 10px;
+        }
+    }
+  }
+}
+
+.step-left{
+    border-left: 1px solid #B7B7B7;
+    position: relative;
+    height: 85px;    
+    .circle{
+        width: 10px;
+        height: 10px;
+        border: 1px solid skyblue;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+    left: -5px;
+    }
+   
+}
+
+.step-activity{
+    h6{
+        font-size: 12px;
+        font-weight: 500;
+    }p{
+        font-size: 10px;
+        color: #7C7C7C;
+    }
+    .rect-box{
+        margin-left: 20px;
+        width: 50%;
+        padding: 5px;
+    }
+}

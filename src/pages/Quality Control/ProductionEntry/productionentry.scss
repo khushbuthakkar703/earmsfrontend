@@ -1,0 +1,146 @@
+@import '../../../theme/colors';
+@import '../../../theme/buttons';
+@import '../../../theme/themecard';
+@import '../../../theme/tab';
+.select-size{
+    width: 180px !important;
+    margin-right: 20px;
+    color: #999999;
+}
+.input-size{
+    width: 180px !important;
+    margin-right: 20px;
+}
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Verify-form{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 1121px;
+  
+    padding: 30px 20px 25px 20px;
+  
+}
+.popop-border{
+    border:  1px solid #B4B4B4;
+}
+.machinery-details{
+    padding: 30px 10px 15px 35px;
+    width: 100%;
+   
+}
+.heading{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.width{
+    width: 35%;
+}
+.width-1{
+    width: 65%;
+}
+.whole-width{
+    width: 100%;
+}
+.verify-popup{
+    position: fixed;
+    max-height: 100vh;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(55, 55, 55, 0.6);
+  
+}
+.verify-heading{
+    text-align: center;
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+padding-bottom: 25px;
+}
+
+.verify-buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.cancel-button{
+    margin-right: 30px;
+}
+.receive-forms{
+    height: 100vh;
+    position: relative;
+}
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+input:checked + label{
+    background: #28FF58;
+}
+input:checked + label:after{
+    left: calc(100% - 21px) !important;
+    transform: translateX(-100%);
+}
+label{
+    text-indent: -9999px;
+    width: 35px;
+height: 15px;
+background: #28FF58;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+label:after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 19px;
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+    border: 1px solid grey;
+}
+.pop-tabs{
+    width: 100%;
+    display: flex;
+}
+.scrool-tab{
+max-height: 65vh;
+overflow: auto;
+}
+.left-img{
+    width: 50%;
+    margin-right: 10px;
+}
+.right-img{
+    width: 50%;
+    margin-left: 10px;
+}
+.second-genertor{
+    width: 100%;
+    display: flex;
+}
+.margin-zero{
+    margin-bottom: 0 !important;
+}
+.right-tab-content{
+    padding: 25px;
+}

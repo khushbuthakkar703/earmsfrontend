@@ -1,0 +1,35 @@
+@import '../../theme/colors';
+@import '../../theme/buttons';
+@import '../../theme/themecard';
+@import '../../theme/tab';
+.Forward-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+.billreceive-detail{
+    display: flex;
+    width: 100%;
+}
+.billdetail-left{
+    display: flex;
+    width: 50%;
+}
+.billdetail-right{
+    display: flex;
+    width: 50%;
+}
+.detail-receivebill-1{
+    width: 40%;
+}
+.receiveform{
+    display: flex;
+    width: 100%;
+    // padding: 35px 10px 35px 20px;
+}
+.detail-receivebill-3{
+    width: 30%;
+ }
+ .print-marerial{
+    border-radius: 2px !important;
+    margin-right: 10px;
+ }

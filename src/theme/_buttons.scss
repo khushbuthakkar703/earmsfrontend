@@ -1,0 +1,66 @@
+@import './colors';
+
+.gradient-btn {
+    background: linear-gradient(269.85deg, $gradient_button_color_left 30.85%, $gradient_button_color_right 102.07%);
+    border-radius: 3px;
+    width: 100%;
+    color: $button_text_color_1;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    outline: none;
+}
+.btn{
+    padding: 8px 30px;
+   
+    font-weight: 400;
+    border-radius: 48px;
+    line-height: 18px;
+    &.primary-btn{
+        background-color: $back_button_background_color;
+        color: $button_text_color_1;
+    }
+    &.trasparent-btn{
+        background-color: transparent;
+    }
+    &.blue-btn{
+        color: $button_text_color_1;
+        background-color: $sky-blue;
+    }
+    &.primary-bdr-btn{
+        border:1px solid $back_button_background_color;
+        color: $back_button_background_color;
+        background: transparent;
+    }
+    &.danger-btn{
+        color: $button_text_color_1;
+        background-color: $red;
+    }
+    &.success-btn{
+        color: $button_text_color_1;
+        background-color: $green;
+    }
+    &.green-bdr-btn{
+        color:$green;
+        background: transparent;
+        border:1px solid $green;
+    }
+    &.add-btn{
+        background: transparent;
+        color: #00C2FA;
+        border: none !important;
+    }
+    img,svg{
+        margin-right: 8px;
+    }
+}
+
+.browse-btn{
+    background-color: $back_button_background_color;
+    color: $button_text_color_1;
+    padding: 5px 35px;
+    border-radius: 3px;
+    font-size: 13px;
+
+    cursor: pointer;
+}

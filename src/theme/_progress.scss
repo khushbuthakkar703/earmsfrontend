@@ -1,0 +1,23 @@
+.progress{
+    height: 4px;
+}
+
+.progress-label{
+    margin-bottom: 10px;
+    font-weight: 600;
+font-size: 10px;
+    span{
+        font-size: 10px;
+        font-weight: 400;
+
+    }
+}
+.bg-skyblue{
+    background: #00C2FA;
+}
+.bg-warning{
+    background: #FFBC34;
+}
+.bg-success{
+    background: #55CE63 !important;
+}
